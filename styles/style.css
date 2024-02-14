@@ -133,9 +133,15 @@ background: var(--dark-color);
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-        border: 3px solid var(--dark-color); ;
+        border: 2px solid var(--dark-color); ;
 
         border-radius: 20px 
+    }
+    #current-time{
+        border: 1px solid var(--dark-color);
+        padding: 10px 20px;
+        border-radius: 10px 
+
     }
     .time .cart{
      padding:  0 10px ;

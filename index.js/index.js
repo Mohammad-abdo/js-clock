@@ -58,9 +58,9 @@ updatetime()
 
 function updateTime() {
     const timezone = document.getElementById("timezone").value;
-    const country =document.getElementById('country')
-    country.textContent=timezone
-    const currentTime = new Date().toLocaleString('en-US', {timeZone: timezone});
+    const country = document.getElementById('country');
+    country.textContent = timezone;
+    const currentTime = new Date().toLocaleTimeString('en-US', {timeZone: timezone});
     document.getElementById("current-time").textContent =  currentTime;
 }
 
